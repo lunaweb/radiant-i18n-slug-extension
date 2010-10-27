@@ -16,7 +16,7 @@ class I18nSlugExtension < Radiant::Extension
   # See your config/routes.rb file in this extension to define custom routes
   
   def activate
-    Admin::PagesController.send :include, PageI18nSlugInterface
+    Admin::PagesController.send :include, I18nSlugInterface
     # tab 'Content' do
     #   add_item "I18n Slug", "/admin/i18n_slug", :after => "Pages"
     # end
