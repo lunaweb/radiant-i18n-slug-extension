@@ -1,3 +1,6 @@
 = I18n Slug
 
-Description goes here
+To install i18n_slug extension run this in your Radiant root directory:
+
+  git clone git://github.com/lunaweb/radiant-i18n-slug-extension.git vendor/extensions/i18n_slug
+  rake radiant:extensions:i18n_slug:update
